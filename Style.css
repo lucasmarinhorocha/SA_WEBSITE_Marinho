@@ -1,7 +1,11 @@
 * {
   margin: 0;
   padding: 0;
+ 
 }
+
+
+
 
 Nav div {
   font-size: 12px;
@@ -44,6 +48,18 @@ h3 {
   height: 70px;
   padding: 0px 50px;
   object-fit: contain;
+}
+header ul li a,
+header ul li {
+  text-decoration: none;
+  color: #1a1a1a;
+  font-size: 18px;
+  font-weight: bold;
+  transition: color 0.2s ease;
+}
+
+header ul li a:hover {
+  color: #fff;
 }
 
 main {
